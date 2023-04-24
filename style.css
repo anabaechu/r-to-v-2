@@ -1,14 +1,8 @@
-body {
-    background: linear-gradient(80deg, rgb(166, 81, 223), rgb(5, 124, 172));
+body { 
+    background-image: linear-gradient(80deg, rgb(164, 72, 224), rgb(12, 130, 177)); 
 }
-img {
-    border-radius: 18px;
-    width: 422px;
-    position: absolute;
-    left: 850px;
-    top: 120px;
-}
-h1 {
+
+.cabecalho-titulo {
     position: absolute;
     width: 423px;
     height: 46px;
@@ -27,7 +21,37 @@ h1 {
     background-clip: text;
     scrollbar-color: transparent;
 }
-h2 {
+
+.cabecalho-lista-item {
+    position: absolute;
+    width: 63px;
+    height: 20px;
+    left: 979px;
+    top: 28px;
+
+    font-family: 'Thunder Titan Halftone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.cabecalho-lista-item-2 {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 1100px;
+    top: 21px;
+
+    font-family: 'Thunder Titan Halftone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.escola-titulo {
     position: absolute;
     width: 387px;
     height: 77px;
@@ -44,42 +68,15 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    scrollbar-color: transparent;}
-
-h3 {
-    position: absolute;
-    width: 63px;
-    height: 20px;
-    left: 979px;
-    top: 28px;
-
-    font-family: 'Thunder Titan Halftone';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 20px;
-    color: #FFFFFF;
+    scrollbar-color: transparent;
 }
-h4 {
-    position: absolute;
-    width: 60px;
-    height: 20px;
-    left: 1100px;
-    top: 21px;
 
-    font-family: 'Thunder Titan Halftone';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 20px;
-    color: #FFFFFF;
-}
-#irene {
+.escola-texto {
     position: absolute;
-    width: 385px;
+    width: 583px;
     height: 96px;
-    left: 874px;
-    top: 411px;
+    left: 163px;
+    top: 296px;
 
     font-family: 'Thunder Titan Semi-Straight';
     font-style: normal;
@@ -93,7 +90,8 @@ h4 {
     background-clip: text;
     text-emphasis-color: transparent;
 }
-#seulgi {
+
+.escola-texto-2 {
     position: absolute;
     width: 7px;
     height: 20px;
@@ -107,6 +105,269 @@ h4 {
     line-height: 20px;
     color: #FFFFFF;
 }
+
+.escola-img {
+    border-radius: 18px;
+    width: 491px;
+    position: absolute;
+    left: 817px;
+    top: 34px;
+}
+
+.estudante-titulo{
+    position: absolute;
+    width: 658px;
+    height: 53px;
+    left: 350px;
+    top: 487px;
+
+    font-family: 'Thunder Titan Halftone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+
+.estudante-imagem{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 158px;
+    top: 653px;
+    border-radius: 200px;
+}
+
+.estudante-nome{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 229px;
+    top: 883px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.imagem-1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 330px;
+    top: 1011px;
+}
+
+.estudante-icon-1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 184px;
+    top: 1011px;
+}
+
+.estudante-imagem-l {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 530px;
+    top: 653px;
+    border-radius: 200px;
+}
+
+.estudante-imagem-a{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 906px;
+    top: 653px;
+    border-radius: 200px;
+}
+
+.estudante-imagem-h{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 158px;
+    top: 1100px;
+    border-radius: 200px;
+}
+
+.estudante-imagem-n{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 530px;
+    top: 1100px;
+    border-radius: 200px;
+}
+.estudante-imagem-k{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 906px;
+    top: 1100px;
+    border-radius: 200px;
+}
+
+.estudante-l{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 627px;
+    top: 955px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.imagem-2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 84px;
+    top: 51px;
+}
+
+.estudante-icon-l{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -45px;
+    top: 51px;
+}
+
+.estudante-a{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 1008px;
+    top: 955px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.imagem-3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 84px;
+    top: 51px;
+}
+
+.estudante-icon-a{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -45px;
+    top: 51px;
+}
+
+.estudante-h{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 254px;
+    top: 1406px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.imagem-4{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 84px;
+    top: 51px;
+}
+
+.estudante-icon-h{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -45px;
+    top: 51px;
+}
+
+.estudante-n{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 630px;
+    top: 1406px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.imagem-5{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 84px;
+    top: 51px;
+}
+
+.estudante-icon-n{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -45px;
+    top: 51px;
+}
+
+.estudante-k{
+    position: absolute;
+    width: 143px;
+    height: 43px;
+    left: 1008px;
+    top: 1406px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.imagem-6{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 84px;
+    top: 51px;
+}
+
+.estudante-icon-k{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -45px;
+    top: 51px;
+}
+
 hr {
     position: absolute;
     width: 1115px;
@@ -114,5 +375,4 @@ hr {
     left: 100px;
     right: 100px;
     top: 80px;
-
 }
